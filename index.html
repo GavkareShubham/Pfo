@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,216 +8,239 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/63a0403dfe.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
+
 <body>
-<!-- --------header------- -->
-<div id="header">
-    <div class="container">
-        <nav>
-            <img src="images/mylogo.png" alt="" class="logo">
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="Closemenu()"></i>
-            </ul>
-            <i class="fas fa-bars" onclick="Openmenu()"></i>
-        </nav>
-        <div class="header-text">
-            <p>Fueled by Coffee, Driven by Code,</p>
-            <h1>Hi, I am <span> Shubham</span><br> from Pune, India</h1>
-        </div>
-
-    </div>
-</div>
-
-<!-- ---------about-------- -->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/myuser1.png" alt="">
+    <!-- --------header------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/mylogo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="Closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="Openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fueled by Coffee, Driven by Code,</p>
+                <h1>Hi, I am <span> Shubham</span><br> from Pune, India</h1>
             </div>
-            <div class="about-col-2">
-                <h1 class="subtitle">About me</h1>
-                <p>B-Tech Information Technology student currently pursuing in JSPM RSCOE Tathawade , Pune - 411033</p>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-content active-tab" id="skills">
-                    <ul>
-                    <li><span>Programming</span><br>Working on DSA / Problem solving</li>
-                    <li><span>Web development</span><br>Web develpment</li>
-                    <li><span>Graphics desinging</span><br>Premier pro , After effects , Photoshop</li>
-                    </ul>
-                </div>
-                <div class="tab-content" id="experience">
-                    <ul>
-                    <li><span>Fresher</span><br>Programming</li>
-                    <li><span>Fresher</span><br>web app develpment</li>
-                    <li><span>Freelancing experience</span><br>Graphics desinging</li>
-                    </ul>
-                </div>
-                <div class="tab-content" id="education">
-                    <ul>
-                    <li><span>B-Tech</span><br>desinging web app interface</li>
-                    <li><span>B-Tech</span><br>web app develpment</li>
-                    <li><span>Internet And Youtube</span><br>Video Editing and PhotoShop</li>
-                    </ul>
-                </div>
-            </div>
+
         </div>
     </div>
-</div>
-<!-- -----------services------------------- -->
 
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">my services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fas fa-code"></i>
-                <h2>Coding</h2>
-                <p>I'm looking to become a better problem solver through my engineering knowledge. I am the one who eager towards technology, by doing projects and parallel learning I maintain my environment very friendly. I want to contribute my knowledge , my freshness as a fresher in an organization.</p>
-                <a href="#">learn more</a>
-            </div>
-            <div>
-                <i class="fas fa-crop-alt"></i>
-                <h2>Web design</h2>
-                <p></p>
-                <a href="#">learn more</a>
-            </div>
-            <div>
-                <i class="fab fa-app-store"></i>
-                <h2>Graphics Work</h2>
-                <p></p>
-                <a href="#">learn more</a>
+    <!-- ---------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/myuser1.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Motivated Software Engineer with expertise in C++11/14/17, Object-Oriented Programming (OOP),
+                        multithreading, and
+                        asynchronous programming. Experienced in automotive systems, full-stack web applications,.
+                        Skilled in unit testing,
+                        debugging, and performance optimization to build reliable and scalable applications. Proficient
+                        in Python and Java with a
+                        strong foundation in modern software development practices.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C, C++, C++11/C++14/C++17, Python, JavaScript,
+                                Java, Shell Scripting</li>
+                            <li><span>Frameworks & Technologies</span><br>HTML, CSS, Express.js, React.js, Node.js,
+                                Docker, OpenCV</li>
+                            <li><span>Graphics Desinging</span><br>Premier pro , After effects , Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>Experience</span><br>Software Develpment, Automotive Software Develpment</li>
+                            <li><span>Experience</span><br>Full stack web application develpment</li>
+                            <li><span>Freelancing experience</span><br>Graphics desinging</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>B-Tech</span><br>Bachelor of Technology (B.Tech) in Information Technology
+                                JSPM Rajarshi Shahu College of Engineering, Tathawade | Savitribai Phule Pune
+                                University</li>
+
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <!-- -----------services------------------- -->
 
-<!-- --------portfolio------------->
-<div id="portfolio">
-    <div class="container">
-        <h2 class="sub-title">My work</h2>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/work-1.png" alt="">
-                <div class="layer">
-                    <h3>Coming Soon</h3>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Software Development </h2>
+
+                    <a href="services.html" target="_blank">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web design</h2>
                     <p></p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="#">learn more</a>
                 </div>
-            </div>
-            <div class="work">
-                <img src="images/work-2.png" alt="">
-                <div class="layer">
-                    <h3>Coming Soon</h3>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Graphics Work</h2>
                     <p></p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/work-3.png" alt="">
-                <div class="layer">
-                    <h3>Coming Soon</h3>
-                    <p></p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="#">learn more</a>
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See More</a>
     </div>
-</div>
 
-<!-- --------------contact------------ -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p ><i class="fas fa-envelope-open-text"></i>shubhamgavkare07@gmail.com</p>
-                <p><i class="fas fa-phone-square-alt"></i>+91-9970008896</p>
-                <div class="social-icons">
-                    <a href="http://facebook.com/shubham.gavkare.3"><i class="fab fa-facebook"></i></a>
-                    <a href="http://twitter.com/gavkare_shubham"><i class="fab fa-twitter-square"></i></a>
-                    <a href="http://instagram.com/gavkare_shubham"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/shubhamgavkare"><i class="fab fa-linkedin"></i></a>
+    <!-- --------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Tap below</h3>
+                        <p></p>
+                        <a href="https://github.com/GavkareShubham?tab=repositories"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
                 </div>
-                <a href="images/Shubham_Jayraj Gavkare_Resume_upload.pdf" download class="btn btn2">Download Resume</a>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Tap below</h3>
+                        <p></p>
+                        <a href="https://github.com/GavkareShubham?tab=repositories"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Tap below</h3>
+                        <p></p>
+                        <a href="https://github.com/GavkareShubham?tab=repositories"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet" action="">
-                    <input type="text" name="Name" placeholder="your name" required>
-                    <input type="email" name="Email" placeholder="your email" required>
-                    <textarea name="Message" id="" cols="30" rows="10" placeholder="your message"></textarea>
-                    <button type="submit" class="btn btn2">submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+            <a href="#" class="btn">See More</a>
         </div>
     </div>
-    <div class="copyright">
-        <p>copyriight <i class="fas fa-copyright"></i> Shubham Gavkare <i class="fas fa-heart"></i></p>
+
+    <!-- --------------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-envelope-open-text"></i>shubhamgavkare07@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91-9970008896</p>
+                    <div class="social-icons">
+                        <a href="http://facebook.com/shubham.gavkare.3"><i class="fab fa-facebook"></i></a>
+                        <a href="http://twitter.com/gavkare_shubham"><i class="fab fa-twitter-square"></i></a>
+                        <a href="http://instagram.com/gavkare_shubham"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shubhamgavkare"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <!-- <a href="#" download class="btn btn2">Download
+                        Resume</a> -->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>made with <i class="fas fa-heart"></i>  Shubham Gavkare </p>
+        </div>
     </div>
-</div>
 
 
-<script>
+    <script>
+        // ----here we have taken class instead of id---------
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontent = document.getElementsByClassName("tab-content");
 
-
-    // ----here we have taken class instead of id---------
-     var tablinks =document.getElementsByClassName("tab-links");
-     var tabcontent =document.getElementsByClassName("tab-content");
-
-    function opentab(tabname){
-        // ----this for loop is for removing the red bar and content-------
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
+        function opentab(tabname) {
+            // ----this for loop is for removing the red bar and content-------
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let content of tabcontent) {
+                content.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
-        for(tabcontent of tabcontent){
-            tabcontent.classList.remove("active-tab");
+    </script>
+
+    <!-- ------close and open menu script-------- -->
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function Openmenu() {
+            sidemenu.style.right = "0";
         }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
- }
-</script>
+        function Closemenu() {
+            sidemenu.style.right = "-200px";
+        }
 
-<!-- ------close and open menu script-------- -->
-<script>
+    </script>
 
-    var sidemenu= document.getElementById("sidemenu");
-    function Openmenu(){
-        sidemenu.style.right="0";
-    }
-    function Closemenu(){
-        sidemenu.style.right="-200px";
-    }
-
-</script>
-
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbz5Ybwmm2cBSefdnOgwfLHpIh8qeFZlZI1NQbUS3Pt_QP5Cur2Y3Esvr6QnkR1NKhrGMg/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg =document.getElementById("msg")
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response =>{
-            msg.innerHTML = "message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML =""
-            },5000)
-            form.reset()
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz5Ybwmm2cBSefdnOgwfLHpIh8qeFZlZI1NQbUS3Pt_QP5Cur2Y3Esvr6QnkR1NKhrGMg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+
+        // Trigger animations on page load
+        window.onload = function () {
+            document.querySelector('.header-text').style.opacity = '1';
+            document.querySelector('.header-text').style.transform = 'translateY(0)';
+        };
+    </script>
 
 </body>
+
 </html>
